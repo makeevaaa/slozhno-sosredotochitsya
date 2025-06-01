@@ -1,0 +1,27 @@
+.page.theme_light {
+  --color-primary: #FFF1F7;
+  --color-secondary: #FFC2E6;
+  --color-tertiary: #353430;
+  --color-highlight: #FF8DCB;
+  --color-muted: #353430;
+  --color-muted-rgba: rgba(54, 53, 48, 0.4);
+  --color-static: #FF0070;
+  --color-neutral: #353430;
+  --color-hider: transparent;
+  --theme-background: url(../images/cover-image-light.png);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-primary: #FFF1F7;
+    --color-secondary: #FFC2E6;
+    --color-tertiary: #353430;
+    --color-highlight: #FF8DCB;
+    --color-muted: #353430;
+    --color-muted-rgba: rgba(54, 53, 48, 0.4);
+    --color-static: #FF0070;
+    --color-neutral: #353430;
+    --color-hider: transparent;
+    --theme-background: url(../images/cover-image-light.png);
+  }
+}

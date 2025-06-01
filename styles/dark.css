@@ -1,0 +1,27 @@
+.page.theme_dark {
+  --color-primary: #000028;
+  --color-secondary: #DB00FF;
+  --color-tertiary: #000028;
+  --color-highlight: #FF0070;
+  --color-muted: #FF0070;
+  --color-muted-rgba: rgba(255, 0, 112, 0.4);
+  --color-static: #FF0070;
+  --color-neutral: #F1B2CE;
+  --color-hider: #FF0070;
+  --theme-background: url(../images/cover-image-dark.png);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #000028;
+    --color-secondary: #DB00FF;
+    --color-tertiary: #000028;
+    --color-highlight: #FF0070;
+    --color-muted: #FF0070;
+    --color-muted-rgba: rgba(255, 0, 112, 0.4);
+    --color-static: #FF0070;
+    --color-neutral: #F1B2CE;
+    --color-hider: #FF0070;
+    --theme-background: url(../images/cover-image-dark.png);
+  }
+}
