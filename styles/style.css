@@ -11,7 +11,7 @@
 }
 
 .header, .footer {
-  height: 100vh;
+  /* height: 100vh; */
   min-height: 668px;
 }
 
@@ -200,6 +200,7 @@ footer.section-block {
 .grid-gap-main {
   display: grid;
   gap: 20px;
+  align-content: align-content;
 }
 
 .grid-container {
